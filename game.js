@@ -44,7 +44,7 @@ function checkAnswer(currentLevel){
         }, 500);
         $("h1").text("Game Over!");
         $("h2").text("Press any key To restart");
-        $(document).keypress(startOver);
+        startOver();
     }
 }
 
