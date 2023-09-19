@@ -4,7 +4,7 @@ var gamePattern = [];
 var level = 0;
 var started = false;
 
-$(document).click(startGame);
+$(document).keypress(startGame);
 
 function startGame(){
     if(!started)
@@ -43,8 +43,8 @@ function checkAnswer(currentLevel){
             $("body").removeClass("game-over");
         }, 500);
         $("h1").text("Game Over!");
-        $("h2").text("Click Anywhere To restart");
-        $(document).click(startOver);
+        $("h2").text("Press any key To restart");
+        $(document).keypress(startOver);
     }
 }
 
