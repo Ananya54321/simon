@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Skranji&display=swap');
+
+
+body {
+  text-align: center;
+  background-color: #3f7dc0;
+}
+
+#level-title {
+  font-family: 'Skranji', cursive;
+  font-size: 4.5rem;
+  margin:  5%;
+  color: #fff7d2;
+}
+
+h2{
+  color: #fff7d2;
+  font-family: 'Quicksand',sans-serif;
+  font-size: 2rem;
+}
+
+.container {
+
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: rgb(149, 16, 16);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 82, 82);
+  border: 10px solid rgb(157, 32, 32);
+}
+
+.green {
+  background-color: rgb(114, 255, 114);
+  border: 10px solid rgb(13, 111, 59);
+}
+
+.blue {
+  background-color: rgb(109, 109, 255);
+  border: 10px solid rgb(26, 30, 151);
+}
+
+.yellow {
+  background-color: rgb(255, 240, 129);
+  border: 10px solid rgb(157, 137, 39);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: rgb(173, 173, 173);
+}
