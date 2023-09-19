@@ -6,7 +6,7 @@ var gamePattern = [];
 var level = 0;
 var started = false;
 
-$(document).keypress(startGame);
+$(document).click(startGame);
 
 function startGame(){
     if(!started)
