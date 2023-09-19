@@ -52,7 +52,6 @@ function startOver(){
     level = 0;
     started = false;
     gamePattern = [];
-    $("h2").text("Remember The sequence!"); 
   }
 
 function nextSequence(){
@@ -60,7 +59,7 @@ function nextSequence(){
     userClickedPattern = [];   
 
     $("h1").text("Level " + level);
-
+    $("h2").text("Remember The sequence!"); 
     var randomNumber = Math.floor(Math.random() * 4); 
     var randomChosenColour = buttonColours[randomNumber];
     gamePattern.push(randomChosenColour);
